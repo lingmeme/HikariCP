@@ -34,6 +34,7 @@ public class TestFastList
     @Test
     public void testAddRemove()
     {
+       // 可以看到，很干净的test.
         ArrayList<Statement> verifyList = new ArrayList<>();
 
         FastList<Statement> list = new FastList<>(Statement.class);
